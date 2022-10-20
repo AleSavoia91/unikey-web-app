@@ -1,0 +1,35 @@
+p-menubar{
+    width: 100%;
+}
+
+:host{
+    .container-header{
+        ::ng-deep{
+            .p-menubar .p-menubar-root-list {
+                .p-menuitem {
+                    .p-menuitem-link .p-menuitem-text{
+                        font-size: 25px;
+                    }
+                }
+            }
+            
+            // .pi-desktop:before{
+            //     content: url('../../../../assets/custom-icons/icon-colosseum.png');              
+            // }
+        }
+    }
+}
+
+
+
+
+
+
+// .iconRome{
+//     background: url('/assets/custom-icons/icon-colosseum.png') no-repeat !important;
+//     size: 10px;
+// }
+
+.navElement{
+    font-size: large;
+}
